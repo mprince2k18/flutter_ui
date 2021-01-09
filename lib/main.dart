@@ -35,9 +35,42 @@ class _HomeScreenState extends State<HomeScreen> {
         centerTitle: true,
         backgroundColor: Colors.green[500],
       ),
-      body: Container(
-        color: Colors.green[300],
-      ),
+      body: Column(
+        children: [
+          Container(
+            color: Colors.amber,
+            padding: EdgeInsets.all(30),
+          ),
+          Container(
+            color: Colors.red,
+            padding: EdgeInsets.all(30),
+          ),
+          Container(
+            color: Colors.deepPurple,
+            padding: EdgeInsets.all(30),
+          ),
+          Container(
+            color: Colors.cyan,
+            padding: EdgeInsets.all(30),
+          ),
+          Container(
+            color: Colors.deepOrange,
+            padding: EdgeInsets.all(30),
+          ),
+          Container(
+            color: Colors.pinkAccent,
+            padding: EdgeInsets.all(30),
+          ),
+          Container(
+            color: Colors.lightGreenAccent,
+            padding: EdgeInsets.all(30),
+          ),
+          Container(
+            color: Colors.pinkAccent,
+            padding: EdgeInsets.all(30),
+          ),
+        ],
+      )
     );
   }
 }
